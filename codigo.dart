@@ -66,7 +66,16 @@ class _HomeState extends State<Home> {
                     child: Text('Calcular'),
                   ),
                 ),
-                Padding(),
+                Padding(
+                  padding: EdgeInsets.only(top: 10),
+                  child: Text(
+                    _resultado,
+                    style: TextStyle(
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold
+                    ),
+                  )
+                ),
               ]
             )
           ),
